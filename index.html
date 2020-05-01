@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>RacingMania</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    
+    <script src="p5/p5.js" ></script>
+    <script src="p5/p5.play.js"></script>
+    <script src="p5/p5.dom.js" ></script>
+    <script src="p5/p5.sound.js" ></script>
+   
+    <script src="Form.js" ></script>
+    <script src="Hurdles.js"></script>
+    <script src="Game.js" ></script>
+    <script src="Player.js" ></script>
+
+</head>
+
+<body>
+    <script src="sketch.js" ></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAlWbQvrc5Sxh9w16tQl9HOtTHc36Tr0fA",
+    authDomain: "horizontal-hur.firebaseapp.com",
+    databaseURL: "https://horizontal-hur.firebaseio.com",
+    projectId: "horizontal-hur",
+    storageBucket: "horizontal-hur.appspot.com",
+    messagingSenderId: "838478479030",
+    appId: "1:838478479030:web:8e1a832c914d13efacb017",
+    measurementId: "G-6909WWN5GD"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+
+</html>
